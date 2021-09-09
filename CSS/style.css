@@ -67,6 +67,17 @@ body{
     color: tomato;
 }
 
+.btnSecondary{
+    background-color: white;
+    border: tomato 1px solid;
+    color: tomato;
+}
+.btnSecondary:hover{
+    background-color: tomato;
+    color: white;
+
+}
+
 .firstBox{
     display: flex; 
 }
@@ -79,11 +90,24 @@ body{
 
 .secondColumn{
     flex: 2 0 auto;
-}
-.elementsSocialMedia{
     display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
+.titleSecondary{
+    color: tomato;
+}
+
+.elementsSocialMedia{
+    display: flex;
+    list-style-type: none;
+}
+
+.itemSocialMedia{
+    color: tomato;
+    display: flex;
+}
 .formulary{
     display: flex;
     flex-direction: column;
